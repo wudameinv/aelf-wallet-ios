@@ -2442,6 +2442,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BE8ED1E8B905400A99CBD1E /* Pods-AelfApp.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AElfApp/AElfApp.entitlements;
@@ -2465,6 +2469,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -2472,6 +2477,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E1AA27E93B6AD3020103087 /* Pods-AelfApp.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AElfApp/AElfApp.entitlements;
@@ -2494,6 +2503,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "AElfApp/Resources/AElfApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Release;
 		};
