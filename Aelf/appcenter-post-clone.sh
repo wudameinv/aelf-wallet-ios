@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-brew install autoconf automake libtool
+#brew install autoconf automake libtool
 echo "Uninstalling all CocoaPods versions"
 sudo gem uninstall cocoapods --all --executables
 COCOAPODS_VER=`sed -n -e 's/^COCOAPODS: \([0-9.]*\)/\1/p' Podfile.lock`
