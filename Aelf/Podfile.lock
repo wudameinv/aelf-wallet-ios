@@ -1,5 +1,13 @@
 PODS:
   - Alamofire (4.9.1)
+  - AppCenter (3.2.0):
+    - AppCenter/Analytics (= 3.2.0)
+    - AppCenter/Crashes (= 3.2.0)
+  - AppCenter/Analytics (3.2.0):
+    - AppCenter/Core
+  - AppCenter/Core (3.2.0)
+  - AppCenter/Crashes (3.2.0):
+    - AppCenter/Core
   - BitcoinKit (1.1.0)
   - Bugly (2.5.4)
   - Cache (5.2.0)
@@ -101,27 +109,27 @@ PODS:
   - SQLiteRepairKit (1.2.2):
     - WCDBOptimizedSQLCipher (~> 1.2.0)
   - SVProgressHUD (2.2.5)
-  - SwifterSwift (5.1.0):
-    - SwifterSwift/AppKit (= 5.1.0)
-    - SwifterSwift/CoreGraphics (= 5.1.0)
-    - SwifterSwift/CoreLocation (= 5.1.0)
-    - SwifterSwift/Dispatch (= 5.1.0)
-    - SwifterSwift/Foundation (= 5.1.0)
-    - SwifterSwift/MapKit (= 5.1.0)
-    - SwifterSwift/SceneKit (= 5.1.0)
-    - SwifterSwift/SpriteKit (= 5.1.0)
-    - SwifterSwift/SwiftStdlib (= 5.1.0)
-    - SwifterSwift/UIKit (= 5.1.0)
-  - SwifterSwift/AppKit (5.1.0)
-  - SwifterSwift/CoreGraphics (5.1.0)
-  - SwifterSwift/CoreLocation (5.1.0)
-  - SwifterSwift/Dispatch (5.1.0)
-  - SwifterSwift/Foundation (5.1.0)
-  - SwifterSwift/MapKit (5.1.0)
-  - SwifterSwift/SceneKit (5.1.0)
-  - SwifterSwift/SpriteKit (5.1.0)
-  - SwifterSwift/SwiftStdlib (5.1.0)
-  - SwifterSwift/UIKit (5.1.0)
+  - SwifterSwift (4.2.0):
+    - SwifterSwift/AppKit (= 4.2.0)
+    - SwifterSwift/CoreGraphics (= 4.2.0)
+    - SwifterSwift/CoreLocation (= 4.2.0)
+    - SwifterSwift/Dispatch (= 4.2.0)
+    - SwifterSwift/Foundation (= 4.2.0)
+    - SwifterSwift/MapKit (= 4.2.0)
+    - SwifterSwift/SceneKit (= 4.2.0)
+    - SwifterSwift/SpriteKit (= 4.2.0)
+    - SwifterSwift/SwiftStdlib (= 4.2.0)
+    - SwifterSwift/UIKit (= 4.2.0)
+  - SwifterSwift/AppKit (4.2.0)
+  - SwifterSwift/CoreGraphics (4.2.0)
+  - SwifterSwift/CoreLocation (4.2.0)
+  - SwifterSwift/Dispatch (4.2.0)
+  - SwifterSwift/Foundation (4.2.0)
+  - SwifterSwift/MapKit (4.2.0)
+  - SwifterSwift/SceneKit (4.2.0)
+  - SwifterSwift/SpriteKit (4.2.0)
+  - SwifterSwift/SwiftStdlib (4.2.0)
+  - SwifterSwift/UIKit (4.2.0)
   - SwiftMessages (7.0.1):
     - SwiftMessages/App (= 7.0.1)
   - SwiftMessages/App (7.0.1)
@@ -145,6 +153,7 @@ PODS:
   - WKWebViewJavascriptBridge (1.2.0)
 
 DEPENDENCIES:
+  - AppCenter
   - BitcoinKit (~> 1.1.0)
   - Bugly
   - Cache
@@ -193,6 +202,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - Alamofire
+    - AppCenter
     - BitcoinKit
     - Bugly
     - Cache
@@ -243,6 +253,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AppCenter: ca66175050d538b157959382dd43f1ab96cdab84
   BitcoinKit: a8c198d2a57caf64dc43271901f8c5a2309aced2
   Bugly: 4edda9bb0e3017fd453612189069757195fa23ca
   Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
@@ -291,6 +302,6 @@ SPEC CHECKSUMS:
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
   WKWebViewJavascriptBridge: 43c5948c08c29b8777530d512d02eb921ca0881f
 
-PODFILE CHECKSUM: 277cc011609644f2f2e350753463d1a96865a05b
+PODFILE CHECKSUM: a37220cece35ab4516bf325beb8466e4c859591f
 
 COCOAPODS: 1.9.1
