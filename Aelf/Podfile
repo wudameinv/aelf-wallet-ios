@@ -1,6 +1,6 @@
 platform :ios, '9.0'
-source 'https://github.com/CocoaPods/Specs.git'
-
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
 target 'AelfApp' do
   use_frameworks!
@@ -12,6 +12,7 @@ target 'AelfApp' do
   pod 'WCDB.swift' # 腾讯数据库 https://github.com/Tencent/wcdb
   pod 'IQKeyboardManagerSwift' # 键盘管理 https://github.com/hackiftekhar/IQKeyboardManager
   pod 'Bugly' # 崩溃统计 https://bugly.qq.com/v2/
+  pod 'AppCenter'
 
   pod 'LTMorphingLabel' # 文字动画 https://github.com/lexrus/LTMorphingLabel
 #  pod 'BouncyLayout' #collection 滑动弹性动画 https://github.com/roberthein/BouncyLayout
