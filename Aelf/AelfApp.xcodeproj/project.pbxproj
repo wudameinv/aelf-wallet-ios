@@ -1,3 +1,31 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@wudameinv 
+wudameinv
+/
+aelf-wallet-ios
+forked from AElfProject/aelf-wallet-ios
+0
+0
+5
+ Code
+ Pull requests 0 Actions
+ Projects 0
+ Wiki
+ Security 0
+ Insights
+ Settings
+aelf-wallet-ios/Aelf/AelfApp.xcodeproj/project.pbxproj
+@Jinxiansen Jinxiansen # Bug fixed.
+d41a7fe on 10 Apr
+2524 lines (2512 sloc)  203 KB
+  
 // !$*UTF8*$!
 {
 	archiveVersion = 1;
@@ -1774,7 +1802,7 @@
 				TargetAttributes = {
 					3C9DE1B52296757000BB8C74 = {
 						CreatedOnToolsVersion = 10.2;
-						LastSwiftMigration = 1140;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2431,7 +2459,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -2448,12 +2475,10 @@
 				CODE_SIGN_ENTITLEMENTS = AElfApp/AElfApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = LR77E76VJ6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/AElfApp/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2480,12 +2505,10 @@
 				CODE_SIGN_ENTITLEMENTS = AElfApp/AElfApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = LR77E76VJ6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/AElfApp/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2527,3 +2550,15 @@
 	};
 	rootObject = 3C9DE1AE2296757000BB8C74 /* Project object */;
 }
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
