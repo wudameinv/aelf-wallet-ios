@@ -24,11 +24,11 @@ private enum APIEnv: Int {
         case .dev:
             return "http://192.168.197.39:8081/"
         case .test:
-            return "http://192.168.197.39:8081/"
+            return "http://1.119.195.50:11177/"
         case .staging:
-            return "http://192.168.197.39:8081/"
+            return "http://1.119.195.50:11177/"
         case .prodcution:
-            return "http://192.168.197.39:8081/"
+            return "http://1.119.195.50:11177/"
         }
     }
 
