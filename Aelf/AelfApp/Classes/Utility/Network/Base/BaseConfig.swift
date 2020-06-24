@@ -22,7 +22,7 @@ private enum APIEnv: Int {
     var appHost: String {
         switch self {
         case .dev:
-            return "http://192.168.197.39:8081/"
+            return "http://1.119.195.50:11177/"
         case .test:
             return "http://1.119.195.50:11177/"
         case .staging:
