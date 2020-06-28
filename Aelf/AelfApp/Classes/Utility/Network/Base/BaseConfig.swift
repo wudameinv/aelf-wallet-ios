@@ -22,13 +22,13 @@ private enum APIEnv: Int {
     var appHost: String {
         switch self {
         case .dev:
-            return "http://1.119.195.50:11177/"
+            return "https://wallet-app-api-test.aelf.io/"
         case .test:
-            return "http://1.119.195.50:11177/"
+            return "https://wallet-app-api-test.aelf.io/"
         case .staging:
-            return "http://1.119.195.50:11177/"
+            return "https://wallet-app-api-test.aelf.io/"
         case .prodcution:
-            return "http://1.119.195.50:11177/"
+            return "https://wallet-app-api-test.aelf.io/"
         }
     }
 
